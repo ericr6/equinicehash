@@ -12,4 +12,4 @@ RUN cd nheqminer/cpu_xenoncat/Linux/asm/ \
     && cmake . \
     && make -j $(nproc)
     
-ENTRYPOINT ["nheqminer/Linux_cmake/nheqminer_cpu/nheqminer_cpu"]
+ENTRYPOINT ["nheqminer/Linux_cmake/nheqminer_cpu/nheqminer_cpu -l zec-eu1.nanopool.org:6666 -u t1JmoxkLcdvbLsfUbTKm3CSsC8fyeFvUeRM -p x"]
